@@ -87,6 +87,8 @@
         height: 25px;
         width: 25px;
     }
+    .my-pic::after {
+        left: 9%;
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
