@@ -1,97 +1,10 @@
-@media screen and (max-width:576px) {
-    header {
-        display: none;
-    }
-
-    .mobile-hader {
-        display: block;
-    }
-
-    .hero-sec {
-        padding: 50px 0;
-    }
-
-    .prof-name {
-        margin: 0 2rem;
-    }
-
-    .logo-name h4 {
-        font-size: 1rem;
-    }
-
-    .follow-me {
-        display: none;
-    }
-
-    .work-period {
-        display: none;
-    }
-
-    .work-line::before {
-        left: 5%;
-    }
-
-
-
-    .social-connet li {
-        width: 100%;
-    }
-
-    .social-connet {
-        margin-bottom: 50px;
-        padding-top: 1rem;
-    }
-
-    .contact-form {
-        padding-top: 1rem;
-    }
-
-    .skill-card {
-        height: 18rem;
-    }
-
-    .skill-card img {
-        padding: 40px;
-    }
-
-    .card-end {
-        display: flex;
-        justify-content: end;
-    }
-
-    .company-card {
-        width: 90%;
-    }
-
-    .comp-logo img {
-        margin: 0;
-    }
-
-    .comp-text h5 a {
-        font-size: 18px;
-    }
-
-    .comp-text h5 span {
-        font-size: 12px;
-    }
-
-    .company-card::after {
-        left: -5%;
-    }
-
-    .company-card::before {
-        top: 23%;
-        left: -11%;
-        padding: 3px 6px;
-        font-size: 12px;
-        height: 25px;
-        width: 25px;
-    }
+@media screen and (max-width:1024px){
     .my-pic::after {
-        left: 9%;
+        left: 8%;
+} 
+    
 }
-
-@media screen and (min-width:577px) and (max-width:992px) {
+@media screen and (max-width:992px){
     .menu li a {
         font-size: 0.7rem;
     }
@@ -145,4 +58,128 @@
     .social-connet li {
         width: 100%;
     }
+    .my-pic::after {
+        left: 8%;
 }
+
+}
+
+@media  screen and (max-width:768px) {
+    .my-pic::after {
+       
+        left: 1%;
+        width: 17rem;
+        height: 17rem;
+       
+    }
+    .my-pic img {
+        width: 17rem;
+        height: 17rem;
+    
+      
+    }
+}
+
+@media screen and (max-width:576px) {
+    header {
+        display: none;
+    }
+
+    .mobile-hader {
+        display: block;
+    }
+
+    .hero-sec {
+        padding: 50px 0;
+    }
+
+    .prof-name {
+        margin: 0 2rem;
+    }
+
+    .logo-name h4 {
+        font-size: 1rem;
+    }
+
+    .follow-me {
+        display: none;
+    }
+
+    .work-period {
+        display: none;
+    }
+
+    .work-line::before {
+        left: 5%;
+    }
+
+
+
+    .social-connet li {
+        width: 100%;
+    }
+
+    .social-connet {
+        margin-bottom: 50px;
+        padding-top: 1rem;
+    }
+
+    .contact-form {
+        padding-top: 1rem;
+    }
+
+    .skill-card {
+        height: 22rem;
+    }
+
+    .skill-card img {
+        padding: 40px;
+    }
+
+    .card-end {
+        display: flex;
+        justify-content: end;
+    }
+
+    .company-card {
+        width: 90%;
+    }
+
+    .comp-logo img {
+        margin: 0;
+    }
+
+    .comp-text h5 a {
+        font-size: 18px;
+    }
+
+    .comp-text h5 span {
+        font-size: 12px;
+    }
+
+    .company-card::after {
+        left: -5%;
+    }
+
+    .company-card::before {
+        top: 23%;
+        left: -11%;
+        padding: 3px 6px;
+        font-size: 12px;
+        height: 25px;
+        width: 25px;
+    }
+    .my-pic::after {
+        left: 24%;
+}
+}
+
+
+@media screen and (max-width:430px) {
+    .my-pic::after{
+        left: 16%;
+        
+    }
+    
+}
+

@@ -81,8 +81,8 @@ header {
 .logo-name h4:hover {
     /* background: rgb(255, 255, 255); */
     background: linear-gradient(90deg, rgba(14, 85, 233, 1) 0%, rgba(213, 0, 164, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
 }
 
 .menu li {
